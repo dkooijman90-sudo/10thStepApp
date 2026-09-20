@@ -57,7 +57,6 @@ De webversie draait op GitHub Pages. Dezelfde codebase kan later ook naar iOS en
 
 Vereist: Node.js (versie 20 of hoger) en npm.
 
-```bash
 # Repository clonen
 git clone https://github.com/dkooijman90-sudo/10thStepApp.git
 cd 10thStepApp
@@ -67,3 +66,19 @@ npm install
 
 # Starten
 npx expo start
+Druk op w voor de webversie, of scan de QR-code met de Expo Go-app op je telefoon.
+
+Live versie
+De webversie draait op:
+
+https://dkooijman90-sudo.github.io/10thStepApp/
+
+Je kunt hem op je telefoon zetten via "Zet op beginscherm" in Safari (iPhone) of "App installeren" in Chrome (Android).
+
+Licentie
+MIT — je mag de code gebruiken, aanpassen en verspreiden, zolang je de oorspronkelijke licentievermelding behoudt.
+
+Bijdragen
+Suggesties en verbeteringen zijn welkom. Open een issue of stuur een pull request.
+
+*** Deze app is een hulpmiddel, geen vervanging voor professionele hulp of een behandelprogramma. ***

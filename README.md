@@ -1,56 +1,69 @@
-# Welcome to your Expo app 👋
+# 10th Step App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Een rustig hulpmiddel voor dagelijkse zelfinventarisatie.
 
-## Get started
+## Wat doet de app
 
-1. Install dependencies
+De 10th Step App helpt je om elke dag even stil te staan bij jezelf. Je stelt je eigen vragen op — of gebruikt de standaardvragen — en vult die dagelijks in. Zo bouw je stap voor stap een persoonlijke geschiedenis op van hoe je dagen verliepen.
 
-   ```bash
-   npm install
-   ```
+De app is geïnspireerd op de tiende stap uit 12-stappenprogramma's, maar is breder te gebruiken. Iedereen die dagelijks wil reflecteren op zichzelf kan ermee werken.
 
-2. Start the app
+**Belangrijkste functies:**
 
-   ```bash
-   npx expo start
-   ```
+- Dagelijkse check-in met je eigen vragen
+- Vragen beheren: toevoegen, wijzigen, verbergen, herordenen
+- Geschiedenis: terugkijken op eerdere dagen, precies zoals je ze invulde
+- Automatisch opslaan terwijl je typt
+- Licht/donker thema volgt je toestel
 
-In the output, you'll find options to open the app in a
+## Privacy
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+Deze app is ontworpen met privacy als uitgangspunt.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+- **Alle data blijft op je toestel.** Er is geen server, geen account, geen cloud.
+- **Geen tracking, geen analytics, geen advertenties.**
+- **Geen internetverbinding nodig** om de app te gebruiken.
+- Als je je browsergegevens wist of de app verwijdert, ben je je data kwijt. Er is geen backup.
 
-## Get a fresh project
+Meer functionaliteit (zoals optionele backup of synchronisatie) staat op de verlanglijst, maar alleen als het de privacy niet aantast.
 
-When you're ready, run:
+## Status
+
+De app is in ontwikkeling. De kernfuncties werken en zijn bruikbaar. Er komen nog verbeteringen aan vormgeving, extra functies en uiteindelijk distributie via de appstores.
+
+Wat werkt:
+- Dagelijkse check-in
+- Geschiedenis
+- Vragen beheren
+- Thema volgt toestel
+
+Wat nog komt (geen belofte, geen planning):
+- Optionele backup
+- Notificaties
+- Export
+
+## Techniek
+
+Gebouwd met:
+
+- [Expo](https://expo.dev) (React Native)
+- [Expo Router](https://docs.expo.dev/router/introduction/) voor navigatie
+- [AsyncStorage](https://react-native-async-storage.github.io/async-storage/) voor lokale opslag
+- TypeScript
+
+De webversie draait op GitHub Pages. Dezelfde codebase kan later ook naar iOS en Android.
+
+## Lokaal draaien
+
+Vereist: Node.js (versie 20 of hoger) en npm.
 
 ```bash
-npm run reset-project
-```
+# Repository clonen
+git clone https://github.com/dkooijman90-sudo/10thStepApp.git
+cd 10thStepApp
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+# Dependencies installeren
+npm install
 
-### Other setup steps
-
-- To set up ESLint for linting, run `npx expo lint`, or follow our guide on ["Using ESLint and Prettier"](https://docs.expo.dev/guides/using-eslint/)
-- If you'd like to set up unit testing, follow our guide on ["Unit Testing with Jest"](https://docs.expo.dev/develop/unit-testing/)
-- Learn more about the TypeScript setup in this template in our guide on ["Using TypeScript"](https://docs.expo.dev/guides/typescript/)
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+# Starten
+npx expo start
